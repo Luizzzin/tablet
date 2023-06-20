@@ -1,0 +1,462 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 98.9vw;
+    height: 150px;
+    border-bottom: 1px solid #47564c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo {
+    font: 400 25px 'fonti', sans-serif;
+    color: #47564c;
+    transition: 0.3s ease;
+}
+
+.titulo:hover {
+    transform: scale(1.1);
+    font: 400 35px 'fonti', sans-serif;
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url(font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+/* PARTE ONDE FICA TODAS INFORMAÇÕES PRINCIPAIS */
+/* parte1 */
+.cozinhando {
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.parte1 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nossacomida {
+    font: 500 36px 'fonti', sans-serif;
+    color: #FfA36A;
+    margin: 0 0 20px;
+}
+
+.texto {
+    margin: 30px 40px;
+}
+
+/* fim parte 1 */
+#Lorem {
+    font: 300 20px 'fonti', sans-serif;
+}
+
+/* parte 2 */
+.parte2 {
+
+    display: flex;
+    align-items: center;
+}
+
+.panela {
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.textin {
+    margin: 30px 40px;
+}
+
+.equipe {
+    margin: 0 0 20px;
+    font: 500 36px 'fonti', sans-serif;
+    color: #FfA36A;
+}
+
+/* fim parte 2 */
+/* cardapio */
+.cardapio {
+    margin-top: 10px;
+}
+
+.nome {
+    font: 500 36px 'fonti', sans-serif;
+    color: #FfA36A;
+    margin-left: 40px;
+}
+
+.pratos {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#prato {
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+#pratin {
+    width: 100px;
+    height: 100px;
+}
+
+#til {
+    font: 400 20px 'fonti', sans-serif;
+    margin-top: 5px;
+
+}
+
+#haha {
+    font: 400 13px 'fonti', sans-serif;
+
+    text-align: justify;
+}
+
+#preco {
+    font: 400 20px 'fonte', sans-serif;
+}
+
+/* fim cardapio */
+/* contatos (footer) */
+.contatos {
+    width: 98.9vw;
+    height: 250px;
+    background-color: #505f55;
+    display: flex;
+}
+
+.caseira {
+    width: 35vw;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comidina {
+    font: 600 24px 'fonti', sans-serif;
+    color: #FfA36A;
+}
+
+.ana {
+    font: 600 36px 'fonti', sans-serif;
+    color: white;
+}
+
+.tele {
+    padding: 30px;
+    width: 25vw;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.icones {
+    width: 10vw;
+    height: 250px;
+    flex-direction: column;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#imgi {
+    width: 30px;
+    height: 30px;
+
+}
+
+.elefo {
+    font: 400 20px 'fonti';
+    margin: 5px;
+    color: white;
+}
+
+.endereco {
+    width: 40vw;
+    height: 250px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.rua {
+    font: 400 20px 'fonti';
+    color: white;
+}
+/* terminei footer */
+a{
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        width: 100vw;
+        height: 260px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .logo{
+        width: 270px;
+        height: auto;
+    }
+    #logo{
+        width: 100vw;
+       height: 200px;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+    }
+    .titulo{
+        font: 400 18px 'fonti', sans-serif;
+    }
+    .cozi{
+        width: 100vw;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .texto{
+        width: 100vw;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte1{
+        display: flex;
+        width: 100vw;
+    }
+    .cozinhando {
+        width: 500px;
+        border-radius: 5px;
+    }
+    
+    .parte1 {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        
+        flex-direction: column;
+    }
+    
+    
+    .nossacomida {
+        font: 400 30px 'fonti', sans-serif;
+        color: #FfA36A;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    /* fim parte 1 */
+    #Lorem {
+        font: 300 20px 'fonti', sans-serif;
+        text-align: center;
+    }
+    /* parte 2 */
+    .parte2 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    
+    .panela {
+        width: 500px;
+        border-radius: 5px;
+        margin-left: 5%;
+    }
+    .equipe {
+        font: 400 30px 'fonti', sans-serif;
+        color: #FfA36A;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    /* fim parte 2 */
+    /* cardapio */
+    .cardapio {
+        margin-top: 30px;
+    }
+    
+    .nome {
+        font: 500 36px 'fonti', sans-serif;
+        color: #FfA36A;
+        margin-left: 40px;
+    }
+    
+    .pratos {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 900px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #prato {
+        width: 300px;
+        height: 250px;
+        border: 2px solid black;
+        margin: 20px;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+    
+    }
+    
+    #pratin {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #til {
+        font: 400 20px 'fonti', sans-serif;
+        margin-top: 5px;
+    
+    }
+    
+    #haha {
+        font: 400 13px 'fonti', sans-serif;
+    
+        text-align: justify;
+    }
+    
+    #preco {
+        font: 400 20px 'fonte', sans-serif;
+    }
+    
+    /* fim cardapio */
+    /* contatos (footer) */
+    .contatos {
+        width: 100vw;
+        height: 250px;
+        background-color: #505f55;
+        display: flex;
+    }
+    
+    .caseira {
+        width: 35vw;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .comidina {
+        font: 400 20px 'fonti', sans-serif;
+        color: #FfA36A;
+    }
+    
+    .ana {
+        font: 400 20px 'fonti', sans-serif;
+        color: white;
+    }
+    
+    .tele {
+        padding: 30px;
+        width: 25vw;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .icones {
+        width: 10vw;
+        height: 250px;
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    
+    #imgi {
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    .elefo {
+        font: 300 13px 'fonti';
+        margin: 5px;
+        color: white;
+    }
+    
+    .endereco {
+        width: 40vw;
+        height: 250px;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: end;
+        display: flex;
+    }
+    
+    .rua {
+        font: 300 15px 'fonti';
+        color: white;
+    }
+    /* terminei footer */
+    a{
+        text-decoration: none;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+}
+    
+
+    
